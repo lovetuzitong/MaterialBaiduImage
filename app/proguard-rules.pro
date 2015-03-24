@@ -15,3 +15,6 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+#retrolambda 混淆
+-dontwarn java.lang.invoke.*
